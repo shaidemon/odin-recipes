@@ -1,0 +1,88 @@
+body {
+   background: rgb(245, 222, 178) url("img/recipe-bg.jpg") fixed;
+   font-family: Helvetica serif;
+   font-size: 16px;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+h1 {
+   display: block;
+   border-radius: 25px;
+   padding: 0px 0px;
+   /* box-shadow: 0 0 10px rgba(245, 222, 178, 0.1); */
+   font-size: 48px;
+   /* background-color: rgb(245, 222, 178, 0.2); */
+}
+
+.container {
+   margin: 10px auto;
+   width: 80%;
+}
+.menu {
+   margin-top: 2em;
+   font-size: 36px;
+}
+.recipe-link {
+   display: inline-block;
+   margin: 10px 10px 10px 10px;
+   padding: 5px;
+   border-radius: 15px;
+   color: hsl(82, 40%, 30%) ;
+   /* box-shadow: 0 0 10px rgba(245, 222, 178, 0.2); */
+   background-color: rgba(245, 222, 178, 0.2);
+}
+.recipe-link:hover {
+   color: hsl(82, 40%, 20%) ;
+   background-color: rgba(245, 222, 178, 0.4);
+   box-shadow: 5px 5px 10px rgba(114, 97, 64, 0.5);
+}
+.recipe {
+   display: flex;
+   line-height: 1.4;
+
+}
+.dish-photo {
+  
+}
+.dish-photo img {
+   max-width: 100%;
+   
+}
+h3 {
+   margin-left: 30px;
+}
+.ingredients {
+   background-color: rgba(245, 222, 178, 0.2);
+   flex: 0 0 30%;
+}
+.method {
+   background-color: rgba(245, 222, 178, 0.2);
+   margin-left: 10px;
+}
+.homelink {
+   font-size: 24px;
+   color: hsl(82, 40%, 30%) ;
+   padding: 5px;
+   border-radius: 24px;
+   background-color: rgba(245, 222, 178, 0.3);
+   
+}
+.homelink:hover {
+   color: hsl(82, 40%, 20%) ;
+   background-color: rgba(245, 222, 178, 0.4);
+   box-shadow: 5px 5px 5px rgba(114, 97, 64, 0.5);
+}
+.footer {
+   height: 20px;
+}
